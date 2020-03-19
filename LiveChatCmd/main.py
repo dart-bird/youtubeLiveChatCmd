@@ -7,9 +7,9 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 import methods as ms
 
-id = 'mch4u8DlhGY'
+id = ''
 filename = 'data.json'
-pollData = ['전상민', '홍석민', '이승훈', '유진웅']
+pollData = ['apple', 'banna', 'watermelon', 'pineapple']
 cmd = '!vote'
 ms.initJsonData('./%s' % filename, initType={})
 data = {}
